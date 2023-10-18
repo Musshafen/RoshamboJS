@@ -187,6 +187,40 @@ function handleClickLizard1Button(event: Event) {
 }
 lizard1?.addEventListener('click', handleClickLizard1Button)
 
+// P1 click spock function
+
+function handleClickSpock1Button(event: Event) {
+  console.debug('p1 clicked spock')
+  p1 = 'spock'
+
+  const buttonClickedOn = event.target
+
+  if (buttonClickedOn instanceof HTMLElement) {
+    if (p2 != '' && p2 === 'scissors') {
+      if (winner) {
+        winner.textContent = 'Player 1 Wins'
+      }
+    } else if (p2 != '' && p2 === 'paper') {
+      if (winner) {
+        winner.textContent = 'Player 2 Wins'
+      }
+    } else if (p2 != '' && p2 === 'rock') {
+      if (winner) {
+        winner.textContent = 'Player 1 Wins'
+      }
+    } else if (p2 != '' && p2 === 'lizard') {
+      if (winner) {
+        winner.textContent = 'Player 2 Wins'
+      }
+    } else if (p2 != '' && p2 === 'spock') {
+      if (winner) {
+        winner.textContent = 'Draw!'
+      }
+    }
+  }
+}
+spock1?.addEventListener('click', handleClickSpock1Button)
+
 // -------------------------------------Player 2 Options-------------------------------------
 // P2 click rock function
 
