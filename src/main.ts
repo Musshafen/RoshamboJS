@@ -139,13 +139,13 @@ function handleClickScissors1Button(event: Event) {
       if (winner) {
         winner.textContent = 'Player 2 wins'
       }
-         } else if (p2 != '' && p2 === 'lizard') {
+    } else if (p2 != '' && p2 === 'lizard') {
       if (winner) {
-	winner.textContent = 'Player 1 Wins'
+        winner.textContent = 'Player 1 Wins'
       }
     } else if (p2 != '' && p2 === 'spock') {
       if (winner) {
-	winner.textContent = 'Player 2 Wins' 
+        winner.textContent = 'Player 2 Wins'
       }
     }
   }
@@ -177,11 +177,11 @@ function handleClickRock2Button(event: Event) {
       }
     } else if (p1 != '' && p1 === 'lizard') {
       if (winner) {
-	winner.textContent = 'Player 1 Wins'
+        winner.textContent = 'Player 1 Wins'
       }
     } else if (p1 != '' && p1 === 'spock') {
       if (winner) {
-	winner.textContent = 'Player 2 Wins'
+        winner.textContent = 'Player 2 Wins'
       }
     }
   }
@@ -211,12 +211,12 @@ function handleClickPaper2Button(event: Event) {
       }
     } else if (p1 != '' && p1 === 'lizard') {
       if (winner) {
-	winner.textContent = 'Player 1 Wins'
-	}
-     } else if (p1 != '' && p1 === 'spock') {
-       if (winner) {
-	winner.textContent = 'Player 2 Win'
-	}
+        winner.textContent = 'Player 1 Wins'
+      }
+    } else if (p1 != '' && p1 === 'spock') {
+      if (winner) {
+        winner.textContent = 'Player 2 Win'
+      }
     }
   }
 }
@@ -241,7 +241,15 @@ function handleClickScissors2Button(event: Event) {
       }
     } else if (p1 != '' && p1 === 'rock') {
       if (winner) {
-        winner.textContent = 'Player 1 wins'
+        winner.textContent = 'Player 1 Wins'
+      }
+    } else if (p1 != '' && p1 === 'lizard') {
+      if (winner) {
+        winner.textContent = 'Player 2 Wins'
+      }
+    } else if (p1 != '' && p1 === 'spock') {
+      if (winner) {
+        winner.textContent = 'Player 1 Wins'
       }
     }
   }
