@@ -209,6 +209,14 @@ function handleClickPaper2Button(event: Event) {
       if (winner) {
         winner.textContent = 'Player 2 Wins'
       }
+    } else if (p1 != '' && p1 === 'lizard') {
+      if (winner) {
+	winner.textContent = 'Player 1 Wins'
+	}
+     } else if (p1 != '' && p1 === 'spock') {
+       if (winner) {
+	winner.textContent = 'Player 2 Win'
+	}
     }
   }
 }
