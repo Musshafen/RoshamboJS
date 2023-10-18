@@ -139,6 +139,14 @@ function handleClickScissors1Button(event: Event) {
       if (winner) {
         winner.textContent = 'Player 2 wins'
       }
+         } else if (p2 != '' && p2 === 'lizard') {
+      if (winner) {
+	winner.textContent = 'Player 1 Wins'
+      }
+    } else if (p2 != '' && p2 === 'spock') {
+      if (winner) {
+	winner.textContent = 'Player 2 Wins' 
+      }
     }
   }
 }
