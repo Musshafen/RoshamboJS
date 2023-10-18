@@ -171,9 +171,17 @@ function handleClickRock2Button(event: Event) {
       if (winner) {
         winner.textContent = 'Player 1 Wins'
       }
-    } else if (p2 != '' && p2 === 'rock') {
+    } else if (p1 != '' && p1 === 'rock') {
       if (winner) {
         winner.textContent = 'Draw!'
+      }
+    } else if (p1 != '' && p1 === 'lizard') {
+      if (winner) {
+	winner.textContent = 'Player 1 Wins'
+      }
+    } else if (p1 != '' && p1 === 'spock') {
+      if (winner) {
+	winner.textContent = 'Player 2 Wins'
       }
     }
   }
