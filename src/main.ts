@@ -32,6 +32,10 @@ const paper1 = document.querySelector('.paper1')
 console.log(paper1)
 const scissors1 = document.querySelector('.scissors1')
 console.log(scissors1)
+const lizard1 = document.querySelector('.lizard1')
+console.log(lizard1)
+const spock1 = document.querySelector('.spock1')
+console.log(spock1)
 
 const rock2 = document.querySelector('.rock2')
 console.log(rock2)
@@ -39,6 +43,10 @@ const paper2 = document.querySelector('.paper2')
 console.log(paper2)
 const scissors2 = document.querySelector('.scissors2')
 console.log(scissors2)
+const lizard2 = document.querySelector('.lizard2')
+console.log(lizard2)
+const spock2 = document.querySelector('.spock2')
+console.log(spock2)
 
 // -------------------------------------Player 1 Options-------------------------------------
 
