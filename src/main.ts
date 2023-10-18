@@ -75,7 +75,7 @@ function handleClickRock1Button(event: Event) {
       if (winner) {
         winner.textContent = 'Player 1 Wins'
       }
-          } else if (p2 != '' && p2 === 'spock') {
+    } else if (p2 != '' && p2 === 'spock') {
       if (winner) {
         winner.textContent = 'Player 2 Wins'
       }
@@ -102,6 +102,14 @@ function handleClickPaper1Button(event: Event) {
         winner.textContent = 'Draw'
       }
     } else if (p2 != '' && p2 === 'rock') {
+      if (winner) {
+        winner.textContent = 'Player 1 Wins'
+      }
+    } else if (p2 != '' && p2 === 'lizard') {
+      if (winner) {
+        winner.textContent = 'Player 2 Wins'
+      }
+    } else if (p2 != '' && p2 === 'spock') {
       if (winner) {
         winner.textContent = 'Player 1 Wins'
       }
